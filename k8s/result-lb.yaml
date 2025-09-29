@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: result-lb
+  namespace: voting
+spec:
+  type: LoadBalancer
+  selector:
+    app: result
+  ports:
+  - port: 80
+    targetPort: 80
