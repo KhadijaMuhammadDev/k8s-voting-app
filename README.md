@@ -20,12 +20,6 @@ Perfect for **DevOps & SRE learners** who want to practice real-world Kubernetes
 - Verified to run on **kind/minikube** locally and supports **cloud-native migration**.
 
 ---
-# K8S diagram
-
-![K8S Diagram](./docs/k8s-voting-app.drawio.png)
-
----
-
 ## Project Structure
 ```
 
